@@ -1,0 +1,128 @@
+.container {
+    display: grid;
+    grid-template-areas: 'chair laid worker the' 'width width_n1 width_n2 width_n3' 'height height_n1 height_n2 height_n3' 'depth depth_n1 depth_n2 depth_n3' 'weight weight_n1 weight_n2 weight_n3';
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    height: 100vh;
+    width: 100vh;
+}
+
+.chair {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.laid {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.worker {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.the {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.width {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.width_n1 {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.width_n2 {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.width_n3 {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.depth {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.depth_n1 {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.depth_n2 {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.depth_n3 {
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+    color: black;
+}
+
+.height {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.height_n1 {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.height_n2 {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.height_n3 {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.weight {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.weight_n1 {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.weight_n2 {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
+
+.weight_n3 {
+    background-color: grey;
+    padding: 20px;
+    color: black;
+}
